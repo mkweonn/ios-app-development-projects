@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0EEA572AD602E4004E5833 /* KweonMichelleHW6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA562AD602E4004E5833 /* KweonMichelleHW6App.swift */; };
+		3D0EEA592AD602E4004E5833 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA582AD602E4004E5833 /* ContentView.swift */; };
+		3D0EEA5B2AD602E5004E5833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0EEA5A2AD602E5004E5833 /* Assets.xcassets */; };
+		3D0EEA5E2AD602E5004E5833 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0EEA5D2AD602E5004E5833 /* Preview Assets.xcassets */; };
+		3D0EEA682AD602E5004E5833 /* KweonMichelleHW6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA672AD602E5004E5833 /* KweonMichelleHW6Tests.swift */; };
+		3D0EEA722AD602E5004E5833 /* KweonMichelleHW6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA712AD602E5004E5833 /* KweonMichelleHW6UITests.swift */; };
+		3D0EEA742AD602E5004E5833 /* KweonMichelleHW6UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA732AD602E5004E5833 /* KweonMichelleHW6UITestsLaunchTests.swift */; };
+		3D0EEA832AD60382004E5833 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA822AD60382004E5833 /* Flashcard.swift */; };
+		3D0EEA852AD6039F004E5833 /* FlashcardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA842AD6039F004E5833 /* FlashcardsModel.swift */; };
+		3D0EEA872AD603B2004E5833 /* FlashcardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EEA862AD603B2004E5833 /* FlashcardViewModel.swift */; };
+		3D68D75A2ADD029800A39975 /* EditFlashCardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D68D7592ADD029800A39975 /* EditFlashCardPage.swift */; };
+		3D68D75E2ADD9ED700A39975 /* FlashcardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D68D75D2ADD9ED700A39975 /* FlashcardCell.swift */; };
+		3D68D7602ADDA03F00A39975 /* FlashcardListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D68D75F2ADDA03F00A39975 /* FlashcardListPage.swift */; };
+		3D68D7622ADDA38500A39975 /* FavoritesFlashcardListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D68D7612ADDA38500A39975 /* FavoritesFlashcardListPage.swift */; };
+		3DCE899F2AE6569A007647BA /* FlashcardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE899E2AE6569A007647BA /* FlashcardPage.swift */; };
+		3DCE89A12AE659EC007647BA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE89A02AE659EC007647BA /* MainTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D0EEA642AD602E5004E5833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D0EEA4B2AD602E4004E5833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D0EEA522AD602E4004E5833;
+			remoteInfo = KweonMichelleHW6;
+		};
+		3D0EEA6E2AD602E5004E5833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D0EEA4B2AD602E4004E5833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D0EEA522AD602E4004E5833;
+			remoteInfo = KweonMichelleHW6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D0EEA532AD602E4004E5833 /* KweonMichelleHW6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KweonMichelleHW6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0EEA562AD602E4004E5833 /* KweonMichelleHW6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KweonMichelleHW6App.swift; sourceTree = "<group>"; };
+		3D0EEA582AD602E4004E5833 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D0EEA5A2AD602E5004E5833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D0EEA5D2AD602E5004E5833 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D0EEA632AD602E5004E5833 /* KweonMichelleHW6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KweonMichelleHW6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0EEA672AD602E5004E5833 /* KweonMichelleHW6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KweonMichelleHW6Tests.swift; sourceTree = "<group>"; };
+		3D0EEA6D2AD602E5004E5833 /* KweonMichelleHW6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KweonMichelleHW6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0EEA712AD602E5004E5833 /* KweonMichelleHW6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KweonMichelleHW6UITests.swift; sourceTree = "<group>"; };
+		3D0EEA732AD602E5004E5833 /* KweonMichelleHW6UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KweonMichelleHW6UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D0EEA822AD60382004E5833 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		3D0EEA842AD6039F004E5833 /* FlashcardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsModel.swift; sourceTree = "<group>"; };
+		3D0EEA862AD603B2004E5833 /* FlashcardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardViewModel.swift; sourceTree = "<group>"; };
+		3D68D7592ADD029800A39975 /* EditFlashCardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFlashCardPage.swift; sourceTree = "<group>"; };
+		3D68D75D2ADD9ED700A39975 /* FlashcardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardCell.swift; sourceTree = "<group>"; };
+		3D68D75F2ADDA03F00A39975 /* FlashcardListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardListPage.swift; sourceTree = "<group>"; };
+		3D68D7612ADDA38500A39975 /* FavoritesFlashcardListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesFlashcardListPage.swift; sourceTree = "<group>"; };
+		3DCE899E2AE6569A007647BA /* FlashcardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardPage.swift; sourceTree = "<group>"; };
+		3DCE89A02AE659EC007647BA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D0EEA502AD602E4004E5833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0EEA602AD602E5004E5833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0EEA6A2AD602E5004E5833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D0EEA4A2AD602E4004E5833 = {
+			isa = PBXGroup;
+			children = (
+				3D0EEA552AD602E4004E5833 /* KweonMichelleHW6 */,
+				3D0EEA662AD602E5004E5833 /* KweonMichelleHW6Tests */,
+				3D0EEA702AD602E5004E5833 /* KweonMichelleHW6UITests */,
+				3D0EEA542AD602E4004E5833 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D0EEA542AD602E4004E5833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EEA532AD602E4004E5833 /* KweonMichelleHW6.app */,
+				3D0EEA632AD602E5004E5833 /* KweonMichelleHW6Tests.xctest */,
+				3D0EEA6D2AD602E5004E5833 /* KweonMichelleHW6UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D0EEA552AD602E4004E5833 /* KweonMichelleHW6 */ = {
+			isa = PBXGroup;
+			children = (
+				3D68D7562ADD020200A39975 /* View */,
+				3D0EEA812AD60368004E5833 /* Model */,
+				3D0EEA802AD60354004E5833 /* ViewModel */,
+				3D0EEA562AD602E4004E5833 /* KweonMichelleHW6App.swift */,
+				3D0EEA582AD602E4004E5833 /* ContentView.swift */,
+				3D0EEA5A2AD602E5004E5833 /* Assets.xcassets */,
+				3D0EEA5C2AD602E5004E5833 /* Preview Content */,
+			);
+			path = KweonMichelleHW6;
+			sourceTree = "<group>";
+		};
+		3D0EEA5C2AD602E5004E5833 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EEA5D2AD602E5004E5833 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D0EEA662AD602E5004E5833 /* KweonMichelleHW6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EEA672AD602E5004E5833 /* KweonMichelleHW6Tests.swift */,
+			);
+			path = KweonMichelleHW6Tests;
+			sourceTree = "<group>";
+		};
+		3D0EEA702AD602E5004E5833 /* KweonMichelleHW6UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EEA712AD602E5004E5833 /* KweonMichelleHW6UITests.swift */,
+				3D0EEA732AD602E5004E5833 /* KweonMichelleHW6UITestsLaunchTests.swift */,
+			);
+			path = KweonMichelleHW6UITests;
+			sourceTree = "<group>";
+		};
+		3D0EEA802AD60354004E5833 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EEA842AD6039F004E5833 /* FlashcardsModel.swift */,
+				3D0EEA862AD603B2004E5833 /* FlashcardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3D0EEA812AD60368004E5833 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EEA822AD60382004E5833 /* Flashcard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D68D7562ADD020200A39975 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D68D7592ADD029800A39975 /* EditFlashCardPage.swift */,
+				3D68D75D2ADD9ED700A39975 /* FlashcardCell.swift */,
+				3D68D75F2ADDA03F00A39975 /* FlashcardListPage.swift */,
+				3D68D7612ADDA38500A39975 /* FavoritesFlashcardListPage.swift */,
+				3DCE899E2AE6569A007647BA /* FlashcardPage.swift */,
+				3DCE89A02AE659EC007647BA /* MainTabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D0EEA522AD602E4004E5833 /* KweonMichelleHW6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0EEA772AD602E5004E5833 /* Build configuration list for PBXNativeTarget "KweonMichelleHW6" */;
+			buildPhases = (
+				3D0EEA4F2AD602E4004E5833 /* Sources */,
+				3D0EEA502AD602E4004E5833 /* Frameworks */,
+				3D0EEA512AD602E4004E5833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KweonMichelleHW6;
+			productName = KweonMichelleHW6;
+			productReference = 3D0EEA532AD602E4004E5833 /* KweonMichelleHW6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D0EEA622AD602E5004E5833 /* KweonMichelleHW6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0EEA7A2AD602E5004E5833 /* Build configuration list for PBXNativeTarget "KweonMichelleHW6Tests" */;
+			buildPhases = (
+				3D0EEA5F2AD602E5004E5833 /* Sources */,
+				3D0EEA602AD602E5004E5833 /* Frameworks */,
+				3D0EEA612AD602E5004E5833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D0EEA652AD602E5004E5833 /* PBXTargetDependency */,
+			);
+			name = KweonMichelleHW6Tests;
+			productName = KweonMichelleHW6Tests;
+			productReference = 3D0EEA632AD602E5004E5833 /* KweonMichelleHW6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D0EEA6C2AD602E5004E5833 /* KweonMichelleHW6UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0EEA7D2AD602E5004E5833 /* Build configuration list for PBXNativeTarget "KweonMichelleHW6UITests" */;
+			buildPhases = (
+				3D0EEA692AD602E5004E5833 /* Sources */,
+				3D0EEA6A2AD602E5004E5833 /* Frameworks */,
+				3D0EEA6B2AD602E5004E5833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D0EEA6F2AD602E5004E5833 /* PBXTargetDependency */,
+			);
+			name = KweonMichelleHW6UITests;
+			productName = KweonMichelleHW6UITests;
+			productReference = 3D0EEA6D2AD602E5004E5833 /* KweonMichelleHW6UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D0EEA4B2AD602E4004E5833 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3D0EEA522AD602E4004E5833 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3D0EEA622AD602E5004E5833 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3D0EEA522AD602E4004E5833;
+					};
+					3D0EEA6C2AD602E5004E5833 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3D0EEA522AD602E4004E5833;
+					};
+				};
+			};
+			buildConfigurationList = 3D0EEA4E2AD602E4004E5833 /* Build configuration list for PBXProject "KweonMichelleHW6" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D0EEA4A2AD602E4004E5833;
+			productRefGroup = 3D0EEA542AD602E4004E5833 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D0EEA522AD602E4004E5833 /* KweonMichelleHW6 */,
+				3D0EEA622AD602E5004E5833 /* KweonMichelleHW6Tests */,
+				3D0EEA6C2AD602E5004E5833 /* KweonMichelleHW6UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D0EEA512AD602E4004E5833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0EEA5E2AD602E5004E5833 /* Preview Assets.xcassets in Resources */,
+				3D0EEA5B2AD602E5004E5833 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0EEA612AD602E5004E5833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0EEA6B2AD602E5004E5833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D0EEA4F2AD602E4004E5833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D68D75E2ADD9ED700A39975 /* FlashcardCell.swift in Sources */,
+				3DCE899F2AE6569A007647BA /* FlashcardPage.swift in Sources */,
+				3D0EEA872AD603B2004E5833 /* FlashcardViewModel.swift in Sources */,
+				3D0EEA852AD6039F004E5833 /* FlashcardsModel.swift in Sources */,
+				3D68D7602ADDA03F00A39975 /* FlashcardListPage.swift in Sources */,
+				3DCE89A12AE659EC007647BA /* MainTabView.swift in Sources */,
+				3D0EEA832AD60382004E5833 /* Flashcard.swift in Sources */,
+				3D68D75A2ADD029800A39975 /* EditFlashCardPage.swift in Sources */,
+				3D0EEA592AD602E4004E5833 /* ContentView.swift in Sources */,
+				3D0EEA572AD602E4004E5833 /* KweonMichelleHW6App.swift in Sources */,
+				3D68D7622ADDA38500A39975 /* FavoritesFlashcardListPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0EEA5F2AD602E5004E5833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0EEA682AD602E5004E5833 /* KweonMichelleHW6Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0EEA692AD602E5004E5833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0EEA742AD602E5004E5833 /* KweonMichelleHW6UITestsLaunchTests.swift in Sources */,
+				3D0EEA722AD602E5004E5833 /* KweonMichelleHW6UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D0EEA652AD602E5004E5833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D0EEA522AD602E4004E5833 /* KweonMichelleHW6 */;
+			targetProxy = 3D0EEA642AD602E5004E5833 /* PBXContainerItemProxy */;
+		};
+		3D0EEA6F2AD602E5004E5833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D0EEA522AD602E4004E5833 /* KweonMichelleHW6 */;
+			targetProxy = 3D0EEA6E2AD602E5004E5833 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D0EEA752AD602E5004E5833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D0EEA762AD602E5004E5833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D0EEA782AD602E5004E5833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KweonMichelleHW6/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Flashcards2;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.KweonMichelleHW6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D0EEA792AD602E5004E5833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KweonMichelleHW6/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Flashcards2;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.KweonMichelleHW6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D0EEA7B2AD602E5004E5833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.KweonMichelleHW6Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KweonMichelleHW6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KweonMichelleHW6";
+			};
+			name = Debug;
+		};
+		3D0EEA7C2AD602E5004E5833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.KweonMichelleHW6Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KweonMichelleHW6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KweonMichelleHW6";
+			};
+			name = Release;
+		};
+		3D0EEA7E2AD602E5004E5833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.KweonMichelleHW6UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KweonMichelleHW6;
+			};
+			name = Debug;
+		};
+		3D0EEA7F2AD602E5004E5833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.KweonMichelleHW6UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KweonMichelleHW6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D0EEA4E2AD602E4004E5833 /* Build configuration list for PBXProject "KweonMichelleHW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0EEA752AD602E5004E5833 /* Debug */,
+				3D0EEA762AD602E5004E5833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0EEA772AD602E5004E5833 /* Build configuration list for PBXNativeTarget "KweonMichelleHW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0EEA782AD602E5004E5833 /* Debug */,
+				3D0EEA792AD602E5004E5833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0EEA7A2AD602E5004E5833 /* Build configuration list for PBXNativeTarget "KweonMichelleHW6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0EEA7B2AD602E5004E5833 /* Debug */,
+				3D0EEA7C2AD602E5004E5833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0EEA7D2AD602E5004E5833 /* Build configuration list for PBXNativeTarget "KweonMichelleHW6UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0EEA7E2AD602E5004E5833 /* Debug */,
+				3D0EEA7F2AD602E5004E5833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D0EEA4B2AD602E4004E5833 /* Project object */;
+}
